@@ -1,0 +1,1 @@
+web: ./manage.py collectstatic --noinput && ./manage.py migrate && gunicorn django_sample.wsgi
